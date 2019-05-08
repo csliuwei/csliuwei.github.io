@@ -2,12 +2,14 @@ title: AI View
 author: Albert
 description: It's simple. It's easy to use. It's a Jekyll theme.
 
+# theme: minimal-mistakes-jekyll
+
 highlighter: null
 permalink: /:title
 
-url:
+url: http://www.aiview.me
 baseurl:
 
 # Custom options:
 # color_scheme: azul|ruby|amber|avocado
-# color_scheme: avocado
+color_scheme: avocado
