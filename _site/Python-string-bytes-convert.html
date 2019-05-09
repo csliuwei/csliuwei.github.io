@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta information -->
+<meta charset="utf-8">
+<meta name="description" 
+      content="起因前几天使用python练习了如何进行TCP的信息传输，在使用的过程中，发现数据格式需要转换成bytes才可以正常地传输，但是在接收到信息后，又需要将bytes进行解码，转换成string才可以。因此，需要进行两者的相互转换。转换其..." >
+<meta name="author" content="Albert">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- title -->
+<title>python中bytes和string的转换 &middot; AI View</title>
+
+<!-- icons -->
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="/assets/css/responsive.gs.12col.css">
+<link rel="stylesheet" href="/assets/css/animate.min.css">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
+
+
+
+<!-- feed links -->
+<link rel="alternate" href="http://localhost:4000/feed.xml" type="application/rss+xml" title="AI View">
+
+  </head>
+  <body>
+    <main class="container avocado">
+      
+      <header>
+      
+        <div>
+          <a href="http://localhost:4000" id="logo" title="AI View"
+             style="background-image: url(/assets/images/logo-new.png);"></a>
+        </div>
+
+        <nav id="main-navigation">
+  
+  
+  <a href="/" title="Home">Home</a>
+  
+  
+  
+  <a href="/about" title="About">About</a>
+  
+  
+</nav>
+
+      </header>
+
+      <article class="single row gutters">
+  <time class="published" datetime="2019-05-09">09 May 2019</time>
+  <h2>python中bytes和string的转换</h2>
+
+  <h2 id="起因">起因</h2>
+<p>前几天使用python练习了如何进行TCP的信息传输，在使用的过程中，发现数据格式需要转换成<code class="highlighter-rouge">bytes</code>才可以正常地传输，但是在接收到信息后，又需要将<code class="highlighter-rouge">bytes</code>进行解码，转换成<code class="highlighter-rouge">string</code>才可以。因此，需要进行两者的相互转换。</p>
+
+<h2 id="转换">转换</h2>
+<p>其实转换是很简单的。</p>
+
+<p>如何将<code class="highlighter-rouge">string</code>转换成<code class="highlighter-rouge">bytes</code>：</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">string_a</span> <span class="o">=</span> <span class="s">'hello'</span>
+<span class="n">bytes_a</span> <span class="o">=</span> <span class="nb">bytes</span><span class="p">(</span><span class="n">string_a</span><span class="p">,</span> <span class="s">'utf-8'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>如果需要将<code class="highlighter-rouge">bytes</code>转换成<code class="highlighter-rouge">string</code>:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">string_a</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">bytes_a</span><span class="p">,</span> <span class="s">'utf-8'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="说明">说明</h2>
+<p>其实还有其他的转换方式，但是我觉得这样子使用起来是最方便、直观的，因此，我只记录这一种转换的方法。</p>
+
+</article>
+
+
+      <footer>
+        <p>
+          The theme is <a href="https://github.com/aigarsdz/brume">Brume</a>.
+        </p>
+      </footer>
+    </main>
+
+    <!-- scripts -->
+    <script src="/assets/js/fluidvids.min.js"></script>
+    <script>
+      fluidvids.init({
+        selector: ['iframe', 'object'],
+        players: ['www.youtube.com', 'player.vimeo.com']
+      });
+    </script>
+  </body>
+</html>
