@@ -6,9 +6,66 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 09 May 2019 16:58:30 +0800</pubDate>
-    <lastBuildDate>Thu, 09 May 2019 16:58:30 +0800</lastBuildDate>
+    <pubDate>Thu, 16 May 2019 17:40:52 +0800</pubDate>
+    <lastBuildDate>Thu, 16 May 2019 17:40:52 +0800</lastBuildDate>
 
+    
+      <item>
+        <title>Accurate EEG-based emotion recognition on combined features using deep CNN</title>
+        <link>http://localhost:4000/post-03</link>
+        <pubDate>Thu, 16 May 2019 00:00:00 +0800</pubDate>
+        <author></author>
+        <description>&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;According to neurophysiology and psychology research, EEG can not only reflect the various brain electrical activity and the functional state of the brain, but also can reflect the effective information of the human emotional state and the generation or activity of emotion is closely related to the activity of the cerebral cortex.&lt;/li&gt;
+  &lt;li&gt;单模态的数据。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>A feature Extraction Method based on differential entropy and linear discriminant analysis for emotion recognition</title>
+        <link>http://localhost:4000/post-02</link>
+        <pubDate>Thu, 16 May 2019 00:00:00 +0800</pubDate>
+        <author></author>
+        <description>&lt;h2 id=&quot;paper-info&quot;&gt;Paper info&lt;/h2&gt;
+&lt;p&gt;Chen D W, Miao R, Yang W Q, et al. A Feature Extraction Method Based on Differential Entropy and Linear Discriminant Analysis for Emotion Recognition[J]. Sensors, 2019, 19(7): 1631.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Existing features: spectral density, logarithmic power, Hjorth parameters, wavelet transform&lt;/li&gt;
+  &lt;li&gt;This paper proposes a feature extraction method based on the &lt;strong&gt;fusion&lt;/strong&gt; of differential entropy and LDA.&lt;/li&gt;
+  &lt;li&gt;使用了SEED数据，但是结果似乎并不好，至少没有我们目前的好。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Hybrid classifer - Fuzzy cognive map -- emotion recognition</title>
+        <link>http://localhost:4000/A-Hybrid-fuzzy-cognitive-map-for-eeg-based-emotion-classification-using-compressed-sensing</link>
+        <pubDate>Thu, 16 May 2019 00:00:00 +0800</pubDate>
+        <author></author>
+        <description>&lt;p&gt;Guo K, Chai R, Candra H, et al. A Hybrid Fuzzy Cognitive Map/Support Vector Machine Approach for EEG-Based Emotion Classification Using Compressed Sensing[J]. International Journal of Fuzzy Systems, 2019, 21(1): 263-273.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The emotion classification systems needs further improvement with the challenges inclusing these four areas: (a)to choose the proper method to collect signal and identify the distinction between the emotions states; (b) to reduce the data dimension to perform fast calculation; (c) to extract the correct features to represent the information embedded in the data; (d) to desing the learning algorithm to recognise the patterns and accurately classify the emotion based on the training process.&lt;/li&gt;
+  &lt;li&gt;A significant drawback of using bahavioural modalities for emotion detection is the uncertainty that arises in the case of indiciduals who either are consciously regulating their emotional manifestations or are naturally suppressive.&lt;/li&gt;
+  &lt;li&gt;EEG signals are &lt;strong&gt;the involuntary reactions of the human body&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;论文里提到了一些使用EEG信号时序特征的参考文献，可以供以后参考。&lt;/li&gt;
+  &lt;li&gt;对使用Fuzzy logic进行情绪识别有一些归纳，可以供以后参考，包括Fuzzy C-Means和Fuzzy K-Cluster算法。&lt;/li&gt;
+  &lt;li&gt;论文使用了一个 hybrid classifier: a hybrid SVM and Fuzzy Cognitive Map classifier.&lt;/li&gt;
+  &lt;li&gt;论文并没有 &lt;strong&gt;对FCM模型做出具体地解释，也没有具体地之处模型的算法流程如何，需要后期自己补充相关知识点&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;todo&quot;&gt;Todo&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;What is Fuzzy Cognitive Map model?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      </item>
     
       <item>
         <title>python中bytes和string的转换</title>
